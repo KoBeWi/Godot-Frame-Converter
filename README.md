@@ -10,5 +10,5 @@ Just run the script from script editor, while having AnimationPlayer selected. T
 
 1. Select AnimationPlayer node
 2. Open `ConvertFrames.gd` in Script Editor
-3. Select File -> Run (Ctrl + Shift + X by default)
+3. Select File -> Run (<kbd>Ctrl + Shift + X</kbd> by default)
 4. Check the console for output
