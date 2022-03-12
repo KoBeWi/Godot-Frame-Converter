@@ -30,6 +30,9 @@ func _run() -> void:
 							animation.track_set_key_value(i, j, new_value)
 					else:
 						result = ERR_NO_SPRITE
+			
+			if result == SUCCESS and not animation.resource_path.empty() and animation.resource_path.find("::") == -1:
+				ResourceSaver.save(animation.resource_path, animation)
 		
 		match result:
 			SUCCESS:
